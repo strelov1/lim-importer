@@ -1,0 +1,34 @@
+A time to...
+0
+ENGLISH
+RUSSIAN
+0
+1241
+1026
+Comic Sans MS
+14
+0
+YES_PROBEL
+NO_APOSTROF_AUTO
+NO_RUS
+5
+REP_ALL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50
+###
+FFF

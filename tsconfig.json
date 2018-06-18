@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "jsx": "react",
+        "outDir": "./build/",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "target": "ES5",
+        "noImplicitAny": false,
+        "declaration": false,
+        "lib": [
+            "es2018",
+            "dom"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "typings/browser.d.ts",
+        "typings/browser"
+    ]
+}

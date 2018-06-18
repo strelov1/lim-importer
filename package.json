@@ -1,0 +1,42 @@
+{
+  "name": "lim",
+  "version": "1.0.0",
+  "description": "LIM",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build_convertor": "tsc ./src/convertor.ts  --outDir ./build/",
+    "convertor": "node ./build/convertor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://strelov1@bitbucket.org/strelov1/lim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/strelov1/lim#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.3",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "jest": "^23.1.0",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "typings": "^2.1.1"
+  }
+}
