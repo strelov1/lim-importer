@@ -1,4 +1,5 @@
 import { readDirAsync, readFileAsync } from "./fs";
+import * as cuid from "cuid";
 
 const course = './test_data';
 
@@ -73,6 +74,7 @@ readDirAsync(course)
             return item.map((node) => {
                 return {
                     "_typeName": "Phrase",
+                    id : cuid(),
                     startTime : node[0],
                     stopTime : node[1],
                     originalText : node[2],
